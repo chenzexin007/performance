@@ -25,12 +25,12 @@
         incrementor = 10,
         distance = 3,
         frame,
-        minimum = 10,
+        minimum = 200,
         subtract = document.querySelector('.subtract'),
         add = document.querySelector('.add');
 
     //总共演示三种方案
-    app.scheme = 1;
+    app.scheme = 3;
     app.count = minimum;
     app.enableApp = true;
   
